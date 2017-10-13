@@ -1,0 +1,8 @@
+elems:
+
+  - src:  ^(config.h)$
+    dst:  /etc/portage/savedconfig/x11-terms/st-<%= `equery l -F '$version' 'x11-terms/st'` %>
+    only: f?st
+
+
+# vim: set filetype=eruby.yaml :
