@@ -1,4 +1,4 @@
-# => inherits: generic <= #
+# => inherits: generic, with-voidlinux <= #
 
 
 # vim: set filetype=eruby.yaml :

@@ -1,0 +1,1 @@
+st_config_path: "/etc/portage/savedconfig/x11-terms/st-<%= `equery l -F '$version' 'x11-terms/st'`.strip %>"

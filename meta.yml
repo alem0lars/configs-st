@@ -1,7 +1,7 @@
 elems:
 
   - src:  ^(config.h)$
-    dst:  /etc/portage/savedconfig/x11-terms/st-<%= `equery l -F '$version' 'x11-terms/st'`.strip %>
+    dst:  "<%= var! :st_config_path %>"
     only: f?st
 
 
